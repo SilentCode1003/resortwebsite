@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "prerestart": "npm install",
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.2.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
